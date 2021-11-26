@@ -1,0 +1,23 @@
+body{
+background-image:url("background.jpg");
+}
+#h3{
+    height:50px;
+    width:210px;
+    font-size:25px;
+}
+canvas{
+    animation-name: rainbow;
+    animation-duration:21s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes rainbow{
+    0%{box-shadow:1px 1px 32px red;}
+    16%{box-shadow:1px 1px 32px orange;}
+    32%{box-shadow:1px 1px 32px yellow;}
+    50%{box-shadow:1px 1px 32px green;}
+    66%{box-shadow:1px 1px 32px blue;}
+    83%{box-shadow:1px 1px 32px indigo;}
+    100%{box-shadow:1px 1px 32px violet;}
+}
